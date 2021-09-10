@@ -20,7 +20,7 @@ for (i = 0; i < list.length; i++){
 		paddedFile = paddedFolder + 
 				File.separator + 
 				File.nameWithoutExtension + 
-				"paddedTo" + 
+				"_paddedTo" + 
 				destSlices + 
 				"Slices.tif";
 		padToSlices(destSlices);
